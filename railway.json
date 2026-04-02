@@ -1,9 +1,8 @@
 {
   "build": {
-    "command": "npm install && npx prisma migrate deploy",
-    "rootDirectory": "server"
+    "command": "cd server && npm install && npx prisma migrate deploy"
   },
   "deploy": {
-    "command": "npm start"
+    "command": "cd server && npm start"
   }
 }
